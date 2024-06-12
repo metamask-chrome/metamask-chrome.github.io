@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+
+# Allow all bots to access specific important directories
+Allow: /content/
+Allow: /images/
+
+# Delay to avoid overloading the server (optional, remove if unnecessary)
+Crawl-delay: 10
